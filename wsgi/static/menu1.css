@@ -1,0 +1,72 @@
+h1{
+text-align:center;
+color: #008000
+}
+body {
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: #333300;
+  background-image:url('images.jpg')
+  }
+
+  ul.def{
+list-style-type: none;
+position:absolute;
+left:400px;
+padding: 0;
+margin: 0
+}
+
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position:absolute;
+  left:600px;
+  top:200px;
+  width: 15em }
+  
+ul.navbar li {
+  background: white;
+  margin: 0.5em;
+  padding: 0.3em;
+  border:5px solid #008000}
+  
+ul.navbar a {
+  text-decoration: none }
+  
+title{
+background-position:center
+}
+
+#cuadro{
+   color: #008000;
+   position:absolute;
+   top:140px;
+   left:560px;
+   border:5px solid #008000
+}
+
+#cuadro1{
+   margin: 0.5em;
+   position:center
+}
+
+#cuadro2{
+   margin: 0.5em;
+   position:center
+}
+
+#cuadro3{
+   margin: 0.5em;
+   left:150px;
+   position:center
+}
+
+#cuadro4{
+   left:80px;
+   top:82px;
+   position:absolute
+}
+ 
+ 

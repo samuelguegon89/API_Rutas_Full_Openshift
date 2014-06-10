@@ -1,0 +1,22 @@
+body {
+  font-family: Georgia, "Times New Roman",
+        Times, serif;
+  color: #black;
+  background-image:url('result.jpg')
+  }
+h1 {
+	text-align:center
+  }
+h2 {
+	text-align:center
+  }
+#cuadro1 { 
+  position:absolute;
+  top:200px;
+  left:800px
+}
+
+#cuadro2 {
+  text-align:left;
+  width:500
+}
