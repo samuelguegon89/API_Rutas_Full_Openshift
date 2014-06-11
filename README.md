@@ -1,30 +1,21 @@
-Bottle on OpenShift
+Rutas_Full
 ===================
 
-This git repository helps you get up and running quickly w/ a Bottle installation
-on the Red Hat OpenShift PaaS.
+Con esta aplicación queremos que el usuario tenga el conocimiento de la ruta que va a tomar y de los diferentes puntos por donde va a pasar.
 
 
-Running on OpenShift
+Running on OpenShift:
 ----------------------------
 
-Create an account at https://www.openshift.com/
+El usuario accede mediante la web a la apliación, que aparecerá con dos menús a elegir, ambos te permiten el calculo de rutas alternativas y te muestra el resultado con un mapa gráfico señalando la ruta con una linea y los diferentes pasos que tiene que dar para llegar a su destino.
 
-Create a python application
+URL Proyecto: http://rutasfull-routefull.rhcloud.com/
 
-    rhc app create bottle python-2.6
 
-Add this upstream bottle repo
+APIS utilizadas:
+----------------------------
 
-    cd bottle
-    git remote add upstream -m master git://github.com/openshift-quickstart/bottle-openshift-quickstart.git
-    git pull -s recursive -X theirs upstream master
-    
-Then push the repo upstream
+API de Ruta: https://developers.google.com/maps/documentation/directions/?hl=es-es
+API de Google Maps: https://developers.google.com/maps/documentation/staticmaps/index?hl=es#Paths
 
-    git push
-
-That's it, you can now checkout your application at:
-
-    http://bottle-$yournamespace.rhcloud.com
 
